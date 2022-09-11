@@ -1,0 +1,6 @@
+    if (message.content.toLowerCase().includes('=loop')){
+    var interval = setInterval(function () {
+        message.channel.send("@Naruto Botto#1053 m")
+        console.log('Sent.')
+    }, 1 * 60000)
+}
